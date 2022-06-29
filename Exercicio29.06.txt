@@ -1,0 +1,42 @@
+1) O que são métodos HTTP?
+O protocolo HTTP define um conjunto de métodos de requisição responsáveis por indicar a ação a ser executada para um dado recurso.
+
+2) Quais são os métodos HTTP mais utilizados atualmente?
+Um dos verbos mais comuns do HTTP é o GET. Esse verbo é o padrão para enviar dados quando submetemos um formulário HTTP.
+
+3) Quais são os 2 principais métodos do HTTP? Qual é a diferença entre eles?
+O GET e o POST. As requisições do tipo GET são recomendadas para obter dados de um determinado recurso. 
+Como em um formulário de busca ou em uma listagem de todos os produtos cadastrados.
+Já as requisições POST são mais utilizadas para para enviar informações para serem processadas, como por exemplo, criar algum recurso, como um produto, ou um cliente.
+
+4) O que são requisições HTTP? Quais os tipos?
+São requisições enviadas pelo Cliente para iniciar uma ação no servidor. Os tipos GET, HEAD, POST, PUT, DELETE, CONNECT, OPTIONS, TRACE E PATCH.
+
+5) Como funciona uma requisição?
+HTTP é um protocolo baseado em streams de texto. Muito resumidamente, o cliente abre um socket para falar com o servidor e, nesse socket, envia requisições (requests), as quais o servidor responderá com respostas (responses).
+O texto da requisição HTTP tem, basicamente, três partes: request line, headers e body. Esse texto é lido linha a linha, sendo que cada linha é separada por CR+LF (carriage return + line feed). (line feed = newline = ‘\n’).
+6) O que é o método GET?
+O método GET utiliza a própria URI (normalmente chamada de URL) para enviar dados ao servidor, quando enviamos um formulário pelo método GET, o navegador pega as informações do formulário e coloca junto com a URI de onde o formulário vai ser enviado e envia, separando o endereço da URI dos dados do formulário por um “?” 
+
+7) Qual é o protocolo de internet para transferência segura, com uso de certificado digital, utilizado em sites de compras eletrônicas?
+O HTTPS é uma extensão segura do HTTP. Os sites que configurarem um certificado SSL/TLS podem utilizar o protocolo HTTPS para estabelecer uma comunicação segura com o servidor.
+
+8) Quais os principais métodos de uma requisição REST?
+Há várias maneiras de fazer requisições HTTP do front end para o back end usando REST.
+Os verbos são: Get, Put, Post, Patch, Delete sendo que alguns podem receber parâmetros na URL ou não.
+
+9) Qual a diferença entre IPv4 e IPv6?
+um endereço IPv4 é composto por quatro conjuntos de números, de 0 a 255, que são separados por pontos. 
+Os endereços IPv6 são compostos por oito grupos de quatro dígitos, que são separados pelo sinal de dois pontos (“:”). 
+
+10) Faça um resumo sobre os seguintes protocolos: http, tcp, ip, udp, smtp e ftp.
+HTTP é um protocolo de transferência que possibilita que as pessoas que inserem a URL do seu site na Web possam ver os conteúdos e dados que nele existem.
+O protocolo TCP é a “linguagem” dos computadores e especifica a forma como os dados são trocados pela internet.O TCP é voltado à conexão e tem como garantia a integridade e ordem de todos os dados.
+Endereço IP significa “endereço do Protocolo de Internet”. O Protocolo de Internet é um conjunto de regras para comunicação pela internet para envio de e-mail, streaming de vídeo ou conexão a um site. Um endereço IP identifica uma rede ou dispositivo na internet.
+O protocolo UDP (sigla para User Datagram Protocol) tem, como característica essencial, a falta de confiabilidade.
+Isso significa que, através da utilização desse protocolo, pode-se enviar datagramas de uma máquina à outra, mas sem garantia de que os dados enviados chegarão intactos e na ordem correta.
+Com o UDP é possível enviar, pela mesma saída, dados para diversas máquinas diferentes sem problema algum
+No geral, o protocolo UDP permite uma comunicação bastante rápida, o que é muito vantajoso.
+O protocolo SMTP é o responsável por garantir que os e-mails que você envia diariamente cheguem aos destinatários. O objetivo principal é configurar regras de comunicação entre servidores, já que eles têm uma forma específica de se identificarem e anunciarem que tipo de comunicação estão tentando realizar.
+FTP é a sigla para File Transfer Protocol, um termo que, traduzido para o português, significa Protocolo de Transferência de Arquivos.
+Ele é basicamente um tipo de conexão que permite a troca de arquivos entre dois computadores conectados à internet.
